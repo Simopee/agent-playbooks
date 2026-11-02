@@ -1,6 +1,6 @@
 {
   "name": "simopee-agent-playbooks",
-  "description": "Claude Code agents and playbooks for building products with an agent team. English and Finnish.",
+  "description": "Agents, skills and playbooks for building products with AI agents in Claude Code. English and Finnish.",
   "owner": {
     "name": "Simo Parviainen",
     "url": "https://www.linkedin.com/in/simo-parviainen"

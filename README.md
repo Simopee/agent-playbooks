@@ -4,7 +4,11 @@
 
 Your AI agents build whatever you put in front of them. These packages add the roles that decide whether it was the right thing to build.
 
-Claude Code agents and playbooks for building products with an agent team, in English and Finnish. Each package is an installable Claude Code plugin with a guided setup.
+Agents, skills and playbooks for building products with AI agents in Claude Code, in English and Finnish. Each package is an installable Claude Code plugin with a guided setup, and every package can also be read on its own page here.
+
+## Who it is for
+
+People who build products with an agent team in Claude Code: founders, product owners and small teams who can now build almost anything and need help deciding what is worth building. No coding background is needed to use the packages; the setup asks you questions in plain language.
 
 ## Install
 
@@ -27,17 +31,17 @@ Then start the setup with `/head-of-product:setup`.
 
 ## How it works
 
-Each package has three parts:
+A package is usually built from these parts:
 
 - **An agent** (`agents/`): a role with a fixed working method and a fixed answer format. It reads your project and recommends; you decide.
 - **A setup skill** (`skills/setup/`): a step-by-step guide that Claude runs in your project. It stops for your approval after every step and tailors the agent to your project. The parts to tailor are marked `[FILL IN: ...]`.
 - **Docs and examples** (`docs/`, `examples/`): the templates, the background research and a filled sample, so you can see the result before you start. Finnish translations are in `docs/fi/`.
 
-The packages work in any Claude Code project. They need no other system and no external service.
+A package can also be only a skill or a playbook without an agent. The packages work in any Claude Code project. They need no other system and no external service.
 
 ## Roadmap
 
-- **Planned:** more agents from an agentic product team, published one at a time.
+- **Planned:** more of the roles, skills and playbooks from an agentic product team (for example a systems analyst, a QA role and the routines that connect them), published one package at a time. Each new package gets its own folder and its own page, and installs the same way.
 
 ## Review before use
 

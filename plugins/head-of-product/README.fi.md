@@ -4,6 +4,26 @@
 
 Kun tekoälyagentit tekevät rakentamisesta halpaa, vaikein kysymys on, mitä rakennetaan. Tämä agentti kysyy sen jokaisessa suunnittelukohdassa, kirjoittamaasi strategiaa vasten.
 
+## Kenelle
+
+- Rakennat tuotetta tekoälyagenttien kanssa Claude Codessa, yksin tai pienellä tiimillä, ja agentit toteuttavat melkein mitä tahansa pyydät.
+- Työlista kasvaa nopeammin kuin ehdit arvioida sitä: korjaukset, hiominen, uudet ideat ja toiminnot, joita kukaan ei pyytänyt, näyttävät yhtä kiireellisiltä.
+- Sinulla on tavoitteet, mutta ne ovat päässäsi tai hajallaan muistiinpanoissa, eivät yhdellä sivulla, jota vasten työtä voisi arvioida.
+- Suunnittelet työn kierroksissa (sprinteissä tai ilman) ja haluat toisen mielipiteen juuri silloin, kun valitset, mitä kierrokseen otetaan.
+
+## Mitä hyötyä siitä on
+
+- **Suunnitelma tarkistetaan tavoitteita vasten joka kierroksella.** Ennen kuin sitoudut kierrokseen, agentti kertoo, mitkä työt vievät tavoitetta eteenpäin, mitkä vain tuntuvat tuottavilta ja mitä kannattaa jättää pois tai siirtää.
+- **Saat kirjoitetun strategian samalla.** Käyttöönotto kokoaa sen, mitä tiedät, yhdelle sivulle: kenelle tuote on, mikä sitä jarruttaa, 3–5 panostusta mittareineen ja "emme tee nyt" -lista.
+- **Se ei vain myötäile.** Se muodostaa omat prioriteettinsa ennen kuin lukee suunnitelmasi, sen on aina nimettävä jotain karsittavaa, ja se muuttaa kantaansa vain uuden näytön perusteella.
+- **Päätösvalta pysyy sinulla.** Se suosittelee, sinä päätät. Sillä ei ole kirjoitusoikeuksia.
+- **Se sopii omaan tapaasi tehdä.** Ehdotti työt sitten sinä tai toinen agentti, se arvioi ehdotuksen. Se toimii sprinttien kanssa tai ilman.
+
+## Milloin siitä ei ole hyötyä
+
+- Tuotepäätöksiä ei vielä ole tehtävänä, tai koko suunnitelma pysyy yhden ihmisen päässä vaivatta.
+- Haluat agentin, joka kirjoittaa koodia tai tikettejä. Tämä arvioi vain, mikä kannattaa tehdä.
+
 ## Asennus
 
 ```

@@ -4,6 +4,26 @@
 
 When AI agents make building cheap, the hard question is what to build. This agent asks it at every planning point, against a strategy you wrote down.
 
+## Who it is for
+
+- You build a product with AI agents in Claude Code, alone or with a small team, and the agents can implement almost anything you ask.
+- Your backlog grows faster than you can judge it: fixes, polish, new ideas and features nobody asked for all look equally urgent.
+- You have goals, but they live in your head or in scattered notes, not on one page the work can be checked against.
+- You plan work in rounds (sprints or not) and want a second opinion at the moment you choose what goes in.
+
+## Why use it
+
+- **The plan gets checked against your goals, every round.** Before you commit to a round, the agent says which items move a goal, which only feel productive, and what to cut or defer.
+- **You get a written strategy as a side effect.** The setup turns what you know into one page: who the product is for, what holds it back, 3-5 bets with metrics, and a "Not doing now" list.
+- **It does not just agree with you.** It forms its own priorities before it reads your plan, must always name something to cut, and changes its mind only on new evidence.
+- **You stay in charge.** It recommends; you decide every flag. It has no write access.
+- **It fits your setup.** Whoever proposes the work, you or another agent, it judges the proposal. It works with sprints or without.
+
+## When not to use it
+
+- You have no product decisions to make yet, or one person can hold the whole plan in mind without effort.
+- You want an agent that writes code or tickets. This one only judges what is worth doing.
+
 ## Install
 
 ```
