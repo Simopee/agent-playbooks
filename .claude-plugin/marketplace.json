@@ -1,0 +1,15 @@
+{
+  "name": "simopee-agent-playbooks",
+  "description": "Claude Code agents and playbooks for building products with an agent team. English and Finnish.",
+  "owner": {
+    "name": "Simo Parviainen",
+    "url": "https://www.linkedin.com/in/simo-parviainen"
+  },
+  "plugins": [
+    {
+      "name": "head-of-product",
+      "source": "./plugins/head-of-product",
+      "description": "A Head of Product agent that judges your product work against a written strategy, plus a guided setup that writes that strategy with you."
+    }
+  ]
+}

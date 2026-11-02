@@ -1,0 +1,14 @@
+{
+  "name": "head-of-product",
+  "displayName": "Head of Product",
+  "version": "0.1.0",
+  "description": "A Head of Product agent that judges your product work against a written strategy, plus a guided setup that writes that strategy with you.",
+  "author": {
+    "name": "Simo Parviainen",
+    "url": "https://www.linkedin.com/in/simo-parviainen"
+  },
+  "homepage": "https://github.com/Simopee/agent-playbooks",
+  "repository": "https://github.com/Simopee/agent-playbooks",
+  "license": "MIT",
+  "keywords": ["product-management", "strategy", "prioritisation", "subagent", "agentic-workflows"]
+}
