@@ -2,13 +2,13 @@
 
 # agent-playbooks
 
-Your AI agents build whatever you put in front of them. These packages add the roles that decide whether it was the right thing to build.
+Your AI agents will build whatever you put in front of them. These packages add roles that help you decide whether it is worth building.
 
-Agents, skills and playbooks for building products with AI agents in Claude Code, in English and Finnish. Each package is an installable Claude Code plugin with a guided setup, and every package can also be read on its own page here.
+This repo holds agents, skills and playbooks for building products with AI agents in Claude Code, in English and Finnish. Each package installs as a Claude Code plugin with a guided setup. You can also read each package on its own page here.
 
 ## Who it is for
 
-People who build products with an agent team in Claude Code: founders, product owners and small teams who can now build almost anything and need help deciding what is worth building. No coding background is needed to use the packages; the setup asks you questions in plain language.
+Founders, product owners and small teams who build products with a team of agents in Claude Code. Your agents can now build almost anything, so the hard part is deciding what is worth building. You do not need to know how to code: the setup asks you questions in plain language.
 
 ## Install
 
@@ -31,21 +31,21 @@ Then start the setup with `/head-of-product:setup`.
 
 ## How it works
 
-A package is usually built from these parts:
+A package usually has these parts:
 
 - **An agent** (`agents/`): a role with a fixed working method and a fixed answer format. It reads your project and recommends; you decide.
-- **A setup skill** (`skills/setup/`): a step-by-step guide that Claude runs in your project. It stops for your approval after every step and tailors the agent to your project. The parts to tailor are marked `[FILL IN: ...]`.
-- **Docs and examples** (`docs/`, `examples/`): the templates, the background research and a filled sample, so you can see the result before you start. Finnish translations are in `docs/fi/`.
+- **A setup skill** (`skills/setup/`): a step-by-step guide that Claude runs in your project. It tailors the agent to your project and stops for your approval after every step. The parts to tailor are marked `[FILL IN: ...]`.
+- **Docs and examples** (`docs/`, `examples/`): templates, background research and a filled-in sample, so you can see the result before you start. Finnish translations are in `docs/fi/`.
 
-A package can also be only a skill or a playbook without an agent. The packages work in any Claude Code project. They need no other system and no external service.
+A package can also be only a skill or a playbook without an agent. The packages work in any Claude Code project and need no other tools or external services.
 
 ## Roadmap
 
-- **Planned:** more of the roles, skills and playbooks from an agentic product team (for example a systems analyst, a QA role and the routines that connect them), published one package at a time. Each new package gets its own folder and its own page, and installs the same way.
+- **Planned:** more roles, skills and playbooks from a product team made of agents (for example a systems analyst, a QA role and the routines that connect them), published one package at a time. Each new package gets its own folder and its own page, and installs the same way.
 
 ## Review before use
 
-These are prompts and instructions, not audited software. They are provided as is. Read the agent and skill files before you use them, and check what they write into your project.
+These packages are prompts and instructions. Nobody has audited them, and they are provided as is. Read the agent and skill files before you use them, and check what they write into your project.
 
 ## Licence
 

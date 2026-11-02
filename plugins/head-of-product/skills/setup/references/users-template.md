@@ -27,4 +27,4 @@ Sources from strongest to weakest: real user tests and feedback; behaviour data 
 
 ## Usability test
 
-A five-person usability test once a quarter, if the project has a user interface. The testers do not know the service. The tasks are the user's basic tasks, worded without the interface's own vocabulary. Record whether each task succeeded, how long it took and where the tester hesitated. The Head of Product writes the tasks, the owner recruits the testers, the agent analyses the results. Five people find the obvious problems, but they do not measure shares.
+A five-person usability test once a quarter, if the project has a user interface. The testers do not know the service. The tasks are the user's basic tasks, worded without the interface's own vocabulary. Record whether each task succeeded, how long it took and where the tester hesitated. The Head of Product writes the tasks and analyses the results; the owner recruits the testers. Five people find the obvious problems, but they cannot tell you what share of users has them.

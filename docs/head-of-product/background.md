@@ -1,6 +1,6 @@
 # Head of Product agent: background and rationale
 
-The agent was first built for a product run by one non-developer owner with a team of AI agents, then generalised. Project-specific choices are removed; the research and the reasoning behind the agent's working method are kept, because they are what makes the agent useful rather than agreeable.
+The agent was first built for a product run by one non-developer owner with a team of AI agents, then generalised. This version drops the project-specific choices. It keeps the research and the reasoning behind the agent's working method, because that method is what stops the agent from simply agreeing.
 
 Tags: **[source]** a cited source supports it, **[secondary]** only summaries were reachable, **[inference]** reasoning.
 
@@ -25,17 +25,17 @@ Tags: **[source]** a cited source supports it, **[secondary]** only summaries we
 
 **Feature-factory drift signs (Cutler) most relevant to a small AI-built project [inference]:** shipping celebrated without measured impact; nothing is ever cut or removed; roadmap items are features, not outcomes; no retro on whether bets paid off; shiny objects crowd out product health.
 
-**Local optimisation smell [inference on LNO]:** most of a round is Neutral or Overhead work (copy tweaks, small interface polish, refactors) while the Leverage work sits in the backlog. This is the drift the agent is built to catch.
+**Sign of local optimisation [inference on LNO]:** most of a round is Neutral or Overhead work (copy tweaks, small interface polish, refactors) while the Leverage work sits in the backlog. This is the drift the agent is built to catch.
 
 **Thin data [inference]:** at small scale, analytics is directional and A/B tests are underpowered. Lean on search query data, a few real user conversations and feedback; use leading proxies; set bets with state-and-date kill criteria instead of significance tests; prefer cheap, reversible experiments. Simulated personas test comprehension, never demand.
 
-**Strategy page format.** Rumelt's kernel: diagnosis, guiding policy, 3-5 coherent actions, plus a not-doing list. Cagan: vision stable, strategy flexible. Biddle's "get big on something small, lead, expand": raise sequencing questions when expansion starts before the core is proven.
+**Strategy page format.** Rumelt's kernel: diagnosis, guiding policy, 3-5 coherent actions, plus a not-doing list. Cagan: keep the vision stable and the strategy flexible. Biddle's "get big on something small, lead, expand": raise sequencing questions when expansion starts before the core is proven.
 
 **What does not transfer to a solo owner with AI agents:** hiring and coaching, team topology, stakeholder politics (the only stakeholder is the decider), status reporting, sales-driven features (the analogue is "one user asked for it"), the product trio.
 
 ## 2. How LLM agents fail in an advisory role, and what counters it
 
-This part is why the template's working method is not to be removed in tailoring.
+This part explains why tailoring must not remove the template's working method.
 
 | Failure | Evidence | Countermeasure in the template |
 |---|---|---|
@@ -59,4 +59,4 @@ This part is why the template's working method is not to be removed in tailoring
 
 ## 4. Trial
 
-The setup ends with a trial of three rounds and three yes/no questions per round: did the agent change the owner's choice, did a flag later prove right, did the owner learn something new. No public trial results are published yet.
+The setup ends with a trial of three rounds and three yes/no questions per round: did the agent change the owner's choice, did a flag later prove right, did the owner learn something new. No trial results have been published yet.

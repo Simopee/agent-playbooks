@@ -2,26 +2,26 @@
 
 # Head of Product
 
-When AI agents make building cheap, the hard question is what to build. This agent asks it at every planning point, against a strategy you wrote down.
+AI agents make building cheap, so the hard part is choosing what to build. This agent checks that choice at every planning point, against a strategy you have written down.
 
 ## Who it is for
 
 - You build a product with AI agents in Claude Code, alone or with a small team, and the agents can implement almost anything you ask.
 - Your backlog grows faster than you can judge it: fixes, polish, new ideas and features nobody asked for all look equally urgent.
 - You have goals, but they live in your head or in scattered notes, not on one page the work can be checked against.
-- You plan work in rounds (sprints or not) and want a second opinion at the moment you choose what goes in.
+- You plan work in rounds, with or without sprints, and want a second opinion when you choose what goes into a round.
 
 ## Why use it
 
-- **The plan gets checked against your goals, every round.** Before you commit to a round, the agent says which items move a goal, which only feel productive, and what to cut or defer.
-- **You get a written strategy as a side effect.** The setup turns what you know into one page: who the product is for, what holds it back, 3-5 bets with metrics, and a "Not doing now" list.
+- **It checks each round's plan against your goals.** Before you commit, the agent tells you which items move a goal, which only feel productive, and what to cut or defer.
+- **You end up with a written strategy.** The setup turns what you know into one page: who the product is for, what holds it back, 3-5 bets with metrics, and a "Not doing now" list.
 - **It does not just agree with you.** It forms its own priorities before it reads your plan, must always name something to cut, and changes its mind only on new evidence.
-- **You stay in charge.** It recommends; you decide every flag. It has no write access.
-- **It fits your setup.** Whoever proposes the work, you or another agent, it judges the proposal. It works with sprints or without.
+- **You stay in charge.** It recommends and you decide every flag. It has no write access.
+- **It fits how you work.** It judges the proposal whether you or another agent wrote it, with or without sprints.
 
 ## When not to use it
 
-- You have no product decisions to make yet, or one person can hold the whole plan in mind without effort.
+- You have no product decisions to make yet, or the whole plan fits easily in one person's head.
 - You want an agent that writes code or tickets. This one only judges what is worth doing.
 
 ## Install
@@ -47,12 +47,12 @@ The package gives your project a Head of Product agent and a guided setup. The s
 2. **Strategy draft.** The agent drafts the page from the template. Every claim has a source or is marked as an assumption; unknown baselines are "not measured". It also drafts a page of what is known and what is only assumed about users.
 3. **Review and lock.** You go through the draft section by section. When all are approved, the page is LOCKED with a date.
 4. **Tailoring.** Claude copies the agent into your project (`.claude/agents/head-of-product.md`) and fills in the `[FILL IN: ...]` parts.
-5. **Wiring.** Claude adds the agent to your decision points: a gate before you choose a round's scope, a retro at the end, an idea check before building, a quarterly strategy review. Text blocks exist for work with sprints and without.
+5. **Wiring.** Claude adds the agent to your decision points: a gate before you choose a round's scope, a retro at the end, an idea check before building, a quarterly strategy review. The wiring file has ready text blocks for work with and without sprints.
 6. **Trial.** Three rounds, three yes/no questions after each. Then you decide to keep, change or stop.
 
 **Inputs:** your repository and your answers. **Outputs:** `docs/product/strategy.md`, `docs/product/users-known-vs-assumed.md` (in your language), a tailored agent, and a few lines in your project's instructions.
 
-**How the agent works:** it writes its own priorities from the strategy first, before it reads the proposal, then lists the differences. This counters the tendency of language models to agree with the plan they are shown. It must name at least one thing to cut or defer, or say why nothing should go. It separates evidence from assumption and keeps its position unless it gets new evidence. It has no write access.
+**How the agent works:** it writes its own priorities from the strategy before it reads the proposal, then lists the differences. Language models tend to agree with the plan they are shown, and writing first counters that. It must name at least one thing to cut or defer, or say why nothing should go. It keeps evidence and assumption apart, and it holds its position unless it gets new evidence. It has no write access.
 
 **Answer format** (at most about 700 words): independent priorities, differences from the proposal, cut/defer list, share of Leverage work, strongest single objection, evidence and confidence, at most three questions for you.
 
@@ -73,7 +73,7 @@ Docs: [wiring blocks](../../docs/head-of-product/wiring.md), [strategy template]
 ## Limits and review before use
 
 - These are unaudited prompts, provided as is. Read them before use and check what the setup writes into your project.
-- The agent cannot interview users or judge how an interface feels. At small scale its numbers are directional.
+- The agent cannot interview users or judge how an interface feels. With few users, treat its numbers as a rough direction only.
 - It is built to run rarely, at decision points. Running it per ticket costs tokens and adds noise.
 
 ## Licence and author

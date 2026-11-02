@@ -1,10 +1,10 @@
-# Head of Product: kytkennät projektin työrytmiin
+# Head of Product osaksi projektin työrytmiä
 
-Suomennos englanninkielisestä ohjeesta (`docs/head-of-product/wiring.md`). Valmiita tekstilohkoja käyttöönoton vaiheeseen 5. Valitse ne, jotka sopivat projektin työrytmiin, ja muokkaa ne projektin omiin komentoihin, skilleihin tai ohjeisiin. Lohkot ovat englanniksi, koska ne menevät agenttien ja komentojen ohjeisiin.
+Suomennos englanninkielisestä ohjeesta (`docs/head-of-product/wiring.md`). Tässä on valmiita tekstilohkoja käyttöönoton vaiheeseen 5. Valitse ne, jotka sopivat projektin työrytmiin, ja sovita ne projektin omiin komentoihin, skilleihin tai ohjeisiin. Lohkot ovat englanniksi, koska ne lisätään agenttien ja komentojen ohjeisiin.
 
-Periaate kaikissa: agenttia ajetaan vain kohdissa, joissa omistaja oikeasti päättää, mitä tehdään seuraavaksi. Ei jokaisen tiketin, PR:n tai tarkastuksen kohdalla. Moniagenttiasetelmat kuluttavat moninkertaisesti tokeneita, ja harvoin ajettu, terävä arvio on arvokkaampi kuin jatkuva kommentointi.
+Kaikkien lohkojen periaate on sama: agentti ajetaan vain niissä kohdissa, joissa omistaja oikeasti päättää, mitä seuraavaksi tehdään, eikä jokaisen tiketin, pull requestin tai tarkastuksen yhteydessä. Moniagenttiasetelmat kuluttavat moninkertaisesti tokeneita, ja harvoin tehty terävä arvio on arvokkaampi kuin jatkuva kommentointi.
 
-## A. Portti ennen kuin omistaja valitsee työn (sprintin suunnittelu tai prioriteettikatsaus)
+## A. Tarkistus ennen kuin omistaja valitsee työt (sprintin suunnittelu tai prioriteettien läpikäynti)
 
 ```
 ### HEAD OF PRODUCT GATE (one run per planning point)
@@ -59,7 +59,7 @@ cut/defer verdict, the strongest objection and the confidence. Run it only if th
 yes. Ideas going to the backlog or the idea list are checked at the next planning point anyway.
 ```
 
-## D. Neljännesvuosikatselmus
+## D. Strategian katselmus neljännesvuosittain
 
 ```
 ### QUARTERLY STRATEGY REVIEW
@@ -72,7 +72,7 @@ Once a quarter, and whenever a bet's kill-criterion date passes:
   and its "What changed" section, and refreshes the baselines.
 ```
 
-## E. Yksi rivi projektin CLAUDE.md:hen
+## E. Rivi projektin CLAUDE.md-tiedostoon
 
 ```
 - head-of-product runs only at [decision points]; never per ticket, per pull request, in QA or

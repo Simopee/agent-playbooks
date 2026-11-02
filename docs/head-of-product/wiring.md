@@ -2,7 +2,7 @@
 
 Ready text blocks for setup step 5. Pick the ones that fit the project's work rhythm and adapt them into the project's own commands, skills or instructions. The blocks are in English because they go into agent and command instructions.
 
-The principle in all of them: the agent runs only at points where the owner really decides what is done next. Not per ticket, per pull request or per review. Multi-agent setups use many times more tokens, and a sharp judgement run rarely is worth more than constant commentary.
+The principle in all of them: the agent runs only at points where the owner really decides what is done next. Not per ticket, per pull request or per review. Multi-agent setups use many times more tokens. One sharp judgement at the right moment is worth more than constant commentary.
 
 ## A. Gate before the owner chooses the work (sprint planning or priority review)
 

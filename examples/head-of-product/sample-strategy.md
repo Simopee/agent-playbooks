@@ -18,7 +18,7 @@ Visitors arrive but few come back. Shelf pages are often out of date, so the sec
 
 ## Guiding policy
 
-Make shelf contents fresh before adding anything new. It follows that: updating a shelf must take under a minute; no new features for readers until freshness improves; growth work waits.
+Make shelf contents fresh before adding anything new. In practice: updating a shelf must take under a minute; no new features for readers until freshness improves; growth work waits.
 
 ## Bets (January to March 2026)
 

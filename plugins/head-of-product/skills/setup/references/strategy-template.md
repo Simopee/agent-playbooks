@@ -1,6 +1,6 @@
 # Strategy page template
 
-This is the structure and the guidance. The real page is written to `docs/product/strategy.md` in your project (or the path chosen in setup step 1), in the owner's language. Remove the guidance text (in italics) from the finished page.
+This file gives the structure and the guidance. The real page is written to `docs/product/strategy.md` in your project (or the path chosen in setup step 1), in the owner's language. Remove the guidance text (in italics) from the finished page.
 
 Light means: one page, 3-5 bets, 5-7 decision rules. The page grows in reviews as use shows a need. Decision rules accumulate over months of use; do not write them all at once.
 
@@ -24,9 +24,9 @@ Light means: one page, 3-5 bets, 5-7 decision rules. The page grows in reviews a
 
 ## Diagnosis: what is holding us back now (date)
 
-*The most important section. Write it before the bets. What are the one or two things that now stop the project from moving forward? Not a list of goals but an obstacle. Every claim has a source (metric, file, the owner's word) or is marked as an assumption. End with "To verify": what in the diagnosis is inference rather than tested, and how it will be tested.*
+*The most important section. Write it before the bets. What are the one or two things that now stop the project from moving forward? Name an obstacle; a list of goals is not a diagnosis. Every claim has a source (metric, file, the owner's word) or is marked as an assumption. End with "To verify": what in the diagnosis is inference rather than tested, and how it will be tested.*
 
-*Example of the shape: "Growth is held back by the quality of visibility, not by technology. The pages work, but the search engine leaves part of them unindexed (source: search console, date). To verify: the cause is an inference; test it by pruning weak pages and following indexing for 8 weeks."*
+*Example of the shape: "Search visibility holds growth back. The pages work, but the search engine leaves part of them unindexed (source: search console, date). To verify: the cause is an inference; test it by pruning weak pages and following indexing for 8 weeks."*
 
 ## Guiding policy
 

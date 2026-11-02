@@ -46,7 +46,7 @@ If the project already keeps product documents elsewhere, propose that location 
 
 ## Step 1. Mapping
 
-Goal: know what has already been written about the project and what is missing, before asking the owner anything.
+Goal: find out what has already been written about the project and what is missing, before you ask the owner anything.
 
 Read the repository: README, `CLAUDE.md`, memory files, decision log, backlog or ticket list, the latest sprint or work files, product documents, sources of analytics and metrics, and the commits of the last few weeks. For each section of the strategy page (see the strategy template), record one of:
 
@@ -67,11 +67,11 @@ Tell the owner the result briefly: what was found, what is missing, and what the
 
 ## Step 2. Strategy draft
 
-Start the Head of Product agent from the plugin (`head-of-product:head-of-product`) to write the draft in the shape of the strategy template. The agent is not tailored yet and stops by design, except for this step: tell it explicitly that this is setup step 2 and it is writing the strategy draft, and give it the mapping, the owner's answers, the paths of the project files and the path of the strategy template. If the agent still stops, write the draft yourself by the same rules and say so to the owner. Save the draft to the strategy page path with the status DRAFT, in the owner's language.
+Start the Head of Product agent from the plugin (`head-of-product:head-of-product`) to write the draft in the shape of the strategy template. The agent is not tailored yet, so by design it stops, except in this step: tell it explicitly that this is setup step 2 and it is writing the strategy draft, and give it the mapping, the owner's answers, the paths of the project files and the path of the strategy template. If the agent still stops, write the draft yourself by the same rules and say so to the owner. Save the draft to the strategy page path with the status DRAFT, in the owner's language.
 
 Rules for the draft:
 
-- **Light.** One page. 3-5 bets, 5-7 decision rules. The page grows later in reviews, when use shows the need.
+- **Light.** One page. 3-5 bets, 5-7 decision rules. The page grows later, in reviews, when use shows a need.
 - **Diagnosis first.** Before the bets, write what is really holding the project back now. The bets follow from the diagnosis. A list of goals without a diagnosis is not a strategy.
 - **Every claim has a source** (file, metric, the owner's answer) or is marked as an assumption.
 - **No invented numbers.** If a baseline is not known, write "not measured" and propose how to measure it.
@@ -132,7 +132,7 @@ The agent is on trial for three rounds (three sprints or three reviews). After e
 2. Did one of the agent's flags later prove right? yes / no
 3. Did the owner learn something new they would not have noticed otherwise? yes / no
 
-After three rounds the owner decides: continue, change or stop. Three "no" answers on all three rounds mean the agent is an expensive way of saying what the owner already knows.
+After three rounds the owner decides: continue, change or stop. If all three answers are "no" in all three rounds, the agent is an expensive way of saying what the owner already knows.
 
 ## Maintenance
 
